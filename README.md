@@ -17,7 +17,7 @@ Change Project compliance and JRE to 1.7
 
 ## Clone the Project 
 
-Git Clone https://github.com/sqlkamal/Amazon_AutoSuggest.git
+Git Clone https://github.com/sqlkamal/autosuggest.git
 
 ## Import the Project - Eclipse
 

@@ -17,6 +17,7 @@ public class HomePage {
 	/* Constructor */
 	public HomePage() {
 		driver = Driver.getInstance();
+		driver.manage().window().maximize();
 		PageFactory.initElements(driver, this);
 	}
 
@@ -24,7 +25,7 @@ public class HomePage {
 	@FindBy(id = "twotabsearchtextbox")
 	public WebElement searchProductTextBox;
 
-	@FindBy(id = "suggestions-template")
+	@FindBy(id = "nav-flyout-searchAjax")
 	public WebElement autoSuggestTemplate;
 
 	@FindBy(xpath = "//div[@class='s-suggestion']")

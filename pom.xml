@@ -81,7 +81,7 @@
 					<configuration>
 						<includes>
 							<include>
-								**/*testrunner.java
+								**/*MainRunner.java
 							</include>
 						</includes>
 					</configuration>

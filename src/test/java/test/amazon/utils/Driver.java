@@ -18,7 +18,7 @@ public class Driver {
 				driver = new InternetExplorerDriver();
 				break;
 			case "chrome":
-				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//libs//chromedriver");
+				System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//libs//chromedriver.exe");
 				driver = new ChromeDriver();
 				break;
 			case "firefox":

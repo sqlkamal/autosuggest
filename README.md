@@ -35,4 +35,8 @@ Run as JUnit
 
 ## Report
 
-Once the execution is complete, report 'index' should be available under targer/cucumber-reports folder.
+Once the execution is complete, report 'index' should be available under targer/cucumber-reports folder
+
+## Jenkins
+
+Set up Jenkins locally. Use this repo url to detect a change and trigger a build on Jenkins

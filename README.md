@@ -1,4 +1,4 @@
-# autosuggest
+# autosuggest product validation
 
 ## Pre Requisits
 Eclipse
